@@ -1,7 +1,7 @@
 .form {
   display: flex;
   flex-direction: column;
-  justify-content: left;
+  justify-content: flex-start;
   gap: 20px;
   max-width: 360px;
   margin: 0 auto;
@@ -39,6 +39,10 @@ fieldset {
   gap: 48px;
   height: 64px;
   padding: 0;
+}
+fieldset:active,
+fieldset:hover {
+  border: 1px solid #000;
 }
 fieldset legend {
   margin-left: 28px;
